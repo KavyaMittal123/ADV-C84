@@ -34,7 +34,7 @@ add();
 	
 		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90))
 		{
-			alpahabetkey();
+			alphabetkey();
 			document.getElementById("d1").innerHTML="You pressed an Alphabet Key";
 			console.log("alphabet key");
 		}
